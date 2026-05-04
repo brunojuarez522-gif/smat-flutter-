@@ -41,3 +41,4 @@ def registrar_lectura(lectura: schemas.LecturaCreate, db: Session = Depends(data
     db.add(nueva_lectura)
     db.commit()
     return {"status": "Lectura registrada con éxito"}
+#Python
