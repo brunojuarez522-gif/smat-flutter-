@@ -1,1 +1,4 @@
-mobile/* linguist-vendored
+# Ignorar TODA la carpeta mobile y archivos de configuración
+mobile/** linguist-vendored
+.idea/** linguist-vendored
+.dart_tool/** linguist-vendored
